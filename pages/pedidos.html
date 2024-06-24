@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria Sabor do Verão</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+
+    <!-- Estilo próprio -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header id="header-pedido">
+        <div class="container">
+            <div id="logo">
+                <a href="../index.html"><img src="../images/logo.png" alt="Logo da Sorveteria Sabor do Verão"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../pages/pedidos.html">Pedidos</a></li>
+                    <li><a href="../pages/sobre.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="section06">
+        <div class="container">
+            <h1>Produtos</h1>
+
+            <div class="produtos">
+                <div class="produto">
+                    <img class="img01" src="../images/colegial.png" alt="Taça Colegial">
+                    <h3>Colegial</h3>
+                </div>
+                <div class="produto">
+                    <img class="img02" src="../images/morangoSplit.png" alt="Taça Morango Split">
+                    <h3>Morango Split</h3>
+                </div>
+                <div class="produto">
+                    <img class="img03" src="../images/saladaDeFruta.png" alt="Taça Salada de Frutas">
+                    <h3>Salada de Frutas</h3>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section07">
+        <div class="container">
+            <h2>Fazer Pedido</h2>
+
+            <div class="formulario">
+                <form>
+                    <div class="prod">
+                        <label for="produto">Produto:</label>
+                        <select name="prod" id="produto">
+                            <option value="colegial">Colegial</option>
+                            <option value="morangoSplit">Morango Split</option>
+                            <option value="saladaFrutas">Salada de Frutas</option>
+                        </select>
+                    </div>
+
+                    <div class="prod">
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" id="quantidade">
+                    </div>
+
+                    <div class="prod">
+                        <label for="obs">Observações:</label>
+                        <textarea name="observacao" id="obs"></textarea>
+                    </div>
+
+                    <a id="btn-pedido" href="https://google.com">Fazer Pedido</a>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="footer-pedido">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="Logo da Sorveteria">
+                </a>
+            </div>
+    
+            <div class="developer">
+                <p>Desenvolvido por: <br>
+                    <a href="https://www.linkedin.com/in/rafaeldalforno/" target="_blank">Rafael Dal Forno dos Santos</a>
+                    &reg;
+                </p>
+            </div>
+    
+            <div class="contato">
+                <div class="instagram">
+                    <img src="../images/instagram.png" alt="ícone instagram">
+                    <p>@sabordoveraocruzalta</p>
+                </div>
+    
+                <div class="whatsapp">
+                    <img src="../images/whatsapp.png" alt="ícone whatsapp">
+                    <p>(55)9 9999 - 9999</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

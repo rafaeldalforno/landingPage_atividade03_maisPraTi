@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mogra", sans-serif;
+}
+
+body{
+    background-color: #fcec9f;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+#logo img {
+    float: left;
+}
+
+header {
+    background-color: #ff1717;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 5;
+}
+
+header a img{
+    width: 80px;
+    margin: 10px 0;
+}
+
+header ul li{
+    list-style-type: none;
+    float: right;
+    margin: 35px 0 30px 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fcec9f;
+    font-family: "Mogra", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* CONTEÚDO */
+
+/* Section 01 */
+#section01 {
+    background-color: #fcec9f;
+    position: relative;
+    top: 70px;
+    z-index: 1;
+}
+
+#section01 img{
+    width: 100%;
+}
+
+/* ##### Section 02 ##### */
+#section02 {
+    background-color: #fcec9f;
+    border-radius: 40px 40px 0 0;
+    position: relative;
+    z-index: 2;
+}
+
+#section02 .titulo{
+    color: #ff1717;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* PRODUTO 01 */
+#section02 #produto-01{
+    background-color: #ff1717;
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    margin: 20px 25px 75px 25px;
+    padding: 14px;
+    float: left;
+}
+
+#section02 #produto-01 img{
+    width: 150px;
+    margin: 24px 140px 0;
+}
+
+#section02 #produto-01 h3{
+    text-align: center;
+    font-size: 40px;
+    color: #fcec9f;
+}
+
+#section02 #produto-01 p{
+    text-align: center;
+    font-size: 20px;
+    color: #fcec9f;
+    margin: 30px 0;
+}
+
+#section02 #produto-01 #btn-pedido{
+    text-decoration: none;
+    background-color: #fcec9f;
+    color: #ff1717;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 24px 0 24px 115px;
+}
+
+/* PRODUTO 02 */
+#section02 #produto-02{
+    background-color: #ff1717;
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    margin: 20px 25px 75px 25px;
+    padding: 14px;
+    float: left;
+}
+
+#section02 #produto-02 img{
+    width: 135px;
+    margin: 24px 140px 0;
+}
+
+#section02 #produto-02 h3{
+    text-align: center;
+    font-size: 40px;
+    color: #fcec9f;
+}
+
+#section02 #produto-02 p{
+    text-align: center;
+    font-size: 20px;
+    color: #fcec9f;
+    margin: 30px 0;
+}
+
+#section02 #produto-02 #btn-pedido{
+    text-decoration: none;
+    background-color: #fcec9f;
+    color: #ff1717;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 24px 0 24px 115px;
+}
+
+#section02 .clear {
+    clear: both;
+}
+
+/* ##### Section 03 ##### */
+#section03 {
+    background-color: #ff1717;
+    border-radius: 40px 40px 0 0;
+    position: relative;
+    z-index: 3;
+    top: -30px;
+    padding: 40px 40px 20px 40px;
+}
+
+#section03 .produtos{
+    background-color: #fcec9f;
+    border-radius: 10px;
+    width: 900px;
+    height: 500px;
+    margin: 20px 50px 50px 50px;
+    padding: 14px;
+}
+
+#section03 .produtos .imagem{
+    float: left;
+    margin: 75px 25px;
+}
+
+#section03 .produtos .imagem img{
+    width: 400px;
+}
+
+#section03 .produtos .descricao{
+    float: none;
+    text-align: center;
+    margin: 100px 25px;
+}
+
+#section03 .descricao h3{
+    text-align: center;
+    font-size: 50px;
+    color: #ff1717;
+}
+
+#section03 .descricao p{
+    text-align: center;
+    font-size: 20px;
+    color: #ff1717;
+    margin: 30px 0 50px;
+}
+
+#section03 .descricao #btn-pedido{
+    text-decoration: none;
+    background-color: #ff1717;
+    color: #fcec9f;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+/* ##### FOOTER ##### */
+footer{
+    background-color: #fcec9f;
+    color: #ff1717;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ff1717;
+}
+
+footer .logo{
+    float: left;
+}
+
+footer .developer{
+    float: left;
+    margin-left: 100px;
+}
+
+footer .contato {
+    float: right;
+}
+
+footer .contato img{
+    float: left;
+    margin-top: 5px;
+}
+
+footer .contato p{
+    float: left;margin-left: 10px;
+}
+
+
+/* ############# Página SOBRE ############## */
+#header-sobre{
+    top: 0;
+}
+
+#section04 {
+    background-color: #fcec9f;
+    position: relative;
+}
+
+/* ##### Texto Sobre ##### */
+#section04 h1{
+    color: #ff1717;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+#section04 .sobre-sorveteria{
+    background-color: #ff1717;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto 50px;
+    padding: 20px;
+}
+
+#section04 .sobre-sorveteria p{
+    font-size: 20px;
+    color: #fcec9f;
+    line-height: 2;
+}
+
+/* ##### Galeria Fotos Slide ##### */
+#section05 {
+    background-color: #ff1717;
+    padding: 20px 0;
+}
+
+.galeria {
+    background-color: #fcec9f;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 400px;
+    margin: 30px auto 50px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* ##### SLIDE DE FOTOS ##### */
+.fotos{
+    width: 400%;
+    height: 100px;
+    display: flex;
+}
+
+.fotos input{
+    display: none;
+}
+
+.foto{
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.fotos img{
+    width: 600px;
+    border-radius: 15px;
+    margin: 10px 50px 0 50px;
+}
+
+.manual-navigation{
+    position:  absolute;
+    width: 40%;
+    margin-top: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 3px solid #ff1717;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:hover{
+    background-color: #ff1717;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+#radio2:checked ~ .first {
+    /* margin-left: -23.7%; */
+    margin-left: -25%;
+}
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 3px solid #ff1717;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 40%;
+    margin-top: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #ff1717;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #ff1717;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #ff1717;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #ff1717;
+}
+
+#sobre{
+    padding: 20px 0;
+}
+
+
+/* ############# Página PEDIDOS ############## */
+#header-pedido{
+    top: 0;
+}
+
+#section06 {
+    background-color: #fcec9f;
+    position: relative;
+}
+
+#section06 h1{
+    color: #ff1717;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+#section06 .produto{
+    background-color: #ff1717;
+    width: 320px;
+    height: 420px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    float: left;
+}
+
+#section06 .container .produtos .clear{
+    clear: both;
+}
+
+#section06 .produto .img01{
+    width: 200px;
+    margin: 40px 60px 20px;
+}
+
+#section06 .produto .img02{
+    width: 300px;
+    margin: 40px 20px 37px;
+}
+
+#section06 .produto .img03{
+    width: 200px;
+    margin: 30px 55px 0;
+}
+
+#section06 .produto h3{
+    color: #fcec9f;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Sessão FAZER PEDIDO */
+#section07 {
+    background-color: #ff1717;
+    position: relative;
+}
+
+#section07 h2{
+    color: #fcec9f;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    padding-top: 40px;
+}
+
+#section07 .formulario{
+	color: #fcec9f;
+	font-size: 28px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#section07 .formulario #produto, #quantidade, #obs{
+	font-size: 18px;
+	width: 400px;
+	height: 40px;
+	padding: 5px;
+	color: #ff1717;
+	border-radius: 10px;
+	border: none;
+	display: block;
+	text-align: center;
+	margin: 0 315px 30px;
+}
+
+#section07 .formulario #obs{
+	text-align: start;
+	height: 80px;
+	margin-bottom: 40px;
+}
+
+#section07 #btn-pedido{
+    text-decoration: none;
+    background-color: #fcec9f;
+    color: #ff1717;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+#footer-pedido{
+    padding: 20px 0;
+}
