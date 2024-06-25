@@ -15,3 +15,19 @@ function nextImage(){
     document.getElementById("radio" + count).checked = true;
 }
 
+
+function fazerPedido(){
+    let modal = document.querySelector('.modal');
+    let formulario = document.querySelector('.formulario');
+
+    modal.style.display = 'block';
+    formulario.style.display = 'none';
+}
+
+function outroPedido(){
+    let modal = document.querySelector('.modal');
+    let formulario = document.querySelector('.formulario');
+
+    modal.style.display = 'none';
+    formulario.style.display = 'block';
+}

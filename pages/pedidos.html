@@ -52,9 +52,8 @@
 
     <section id="section07">
         <div class="container">
-            <h2>Fazer Pedido</h2>
-
             <div class="formulario">
+                <h2>Fazer Pedido</h2>
                 <form>
                     <div class="prod">
                         <label for="produto">Produto:</label>
@@ -75,8 +74,16 @@
                         <textarea name="observacao" id="obs"></textarea>
                     </div>
 
-                    <a id="btn-pedido" href="https://google.com">Fazer Pedido</a>
+                    <a id="btn-pedido" href="#" onclick="fazerPedido()">Fazer Pedido</a>
                 </form>
+            </div>
+
+            
+            <div class="modal">
+                <h2>Pedido Realizado</h2>
+                <p>Aguarde!</p>
+
+                <a id="btn-pedido" href="#" onclick="outroPedido()">Fazer outro Pedido</a>
             </div>
 
         </div>
@@ -110,5 +117,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
