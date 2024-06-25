@@ -470,6 +470,7 @@ footer .contato p{
 	font-size: 28px;
 	text-align: center;
 	padding-bottom: 50px;
+    display: block;
 }
 
 #section07 .formulario #produto, #quantidade, #obs{
@@ -497,6 +498,23 @@ footer .contato p{
     color: #ff1717;
     border-radius: 10px;
     padding: 10px 50px;
+}
+
+#section07 p{
+    color: #fcec9f;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    padding: 40px;
+}
+
+#section07 .modal{
+    height: 500px;
+    color: #fcec9f;
+	font-size: 28px;
+	text-align: center;
+	padding: 50px;
+    display: none;
 }
 
 #footer-pedido{
